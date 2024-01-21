@@ -9,7 +9,6 @@ import React from 'react';
 import {View, Text} from 'react-native';
 import {createDrawerNavigator} from '@react-navigation/drawer';
 import {NavigationContainer} from '@react-navigation/native';
-import {NetworkProvider, createNetworkMiddleware} from 'react-native-offline';
 import Test from './src/component/Test';
 
 function App() {
